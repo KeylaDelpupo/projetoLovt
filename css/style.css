@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2? family= Rajdhani & family= Ropa+Sans:ital@1 & display=swap');
+
+/* seletor css */
+body {
+
+font-family:"'Ropa Sans", sans-serif;
+margin:0;
+padding:0;
+color:#777777
+}
+
+body > header{
+    padding: 13px 44px;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+
+
+header > *{
+    display:inline-block;
+}
+
+header > img {
+    margin: 0 0 0 60%;
+}
+
+/*seletores por classe*/
+/*.styles{
+opacity: 0.5;
+}
+
+/*seletores por descêndencia*/
+
+/*#your-style: img{
+    opacity: 1;
+
+}
+
