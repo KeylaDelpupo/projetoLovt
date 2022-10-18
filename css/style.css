@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
 html{
-    font-size: 80%;
+    font-size:80%;
 }
 
 body{
@@ -29,7 +29,7 @@ header > * {
 
 body>header>img {
 float: right;
-margin-top: 16px;
+ margin-button:10px;
 }
 
 body > main {
@@ -96,6 +96,10 @@ body > main {
     width:100%;
     text-align: center;
 
+} 
+
+#your-sales > h1{
+    text-align: center;
 }
 
 .opaque {
@@ -114,14 +118,16 @@ body > main {
 
 .industrial {
     background-image: url('./img/Rectangle\ 11.png');
+    opacity: 100%;
 }
 
 .modern{
     background-image: url('./img/Rectangle\ 12.png');
+    opacity: 100%;
 }
 .classic {
     background-image: url('./img/Rectangle\ 13.png');
-}
+    opacity: 100%;}
 
 footer {
     width:100%;
@@ -175,6 +181,4 @@ footer > #gmaps {
 }
 
 /*extra large devices(large laptops and desktops,1200px and up)*/
-@media(min-width: 1200px) {...}
-
-}
+@media(min-width: 1200px) 
